@@ -7,6 +7,9 @@ class LinkedList {
     return this.nodes.length;
   }
 
+  /**
+   * This is something new
+   */
   get head() {
     return this.size ? this.nodes[0] : null;
   }
